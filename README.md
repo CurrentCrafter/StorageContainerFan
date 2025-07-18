@@ -15,6 +15,7 @@ Kleines Programm für einen Arduino Nano mit folgender Peripherie:
   - Luftfeuchtigkeit unter einstellbarem Schwellenwert halten (im Zweifel lüfter an, wenn OutsideHum<InsideHum) jedoch:
 - Im Sommermodus: Primär die tiefstmögliche Temperatur anstreben, ohne die Luftfeuchtigkeit drastisch zu steigern. Bei Hum. überschreitung soll der Lüfter nur bei Außentemp: 2 °C über der Innentemperatur angehen.
 - Im Wintermodus: Wenn draußen wärmer als drinnen, jedoch <15°C -> lüften.
+- Veränderte Schwellenwerte in der EEProm Speichern und eine Möglichkeit haben die Werte in der EEPROM zurückzusetzen.
 
 ## Pinbelegung:
 ```C
