@@ -79,7 +79,7 @@ MENU:
 6. Zurück          - Zurück zur Hauptanzeige
 ```
 
-### 🎛️ Navigation
+### Navigation
 - **Encoder drehen**: Zwischen Menüpunkten wechseln
 - **Encoder drücken**: Menüpunkt auswählen
 - **In Untermenüs**: Encoder drehen = Zurück zum Hauptmenü
